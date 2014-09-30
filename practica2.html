@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="description" content="Ejemplo de HTML5"/>
+		<meta name="keywords" content="HTML5, CSS3, JavaScript"/>
+		<title>Formulario</title>
+	</head>
+	<body>
+		<div>
+			<form action="datos.html" method="GET">
+				<fieldset>
+				<legend>Formulario</legend>
+					<br/>
+					<br/>
+					<label for="txtContra">Password</label><br/>
+					<input type="password" size="10" maxlength="10" id="txtContra" name="contra"  value="" />
+					
+					<br/>
+					<br/>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Cajas de seleccio&oacute;n</legend>
+						<input type="radio" id="pro1" name="programacion" value="1">
+						<label for="pro1">Programaci&pacute;n 1</label><br/>
+						<input type="radio" id="pro2" name="programacion" value="2" checked="checked">
+						<label for="pro2">Programaci&pacute;n 2</label><br/>
+						<input type="radio" id="pro3" name="programacion" value="3">
+						<label for="pro3">Programaci&pacute;n 3</label><br/>
+						<br/>
+						<br/>
+					
+						<input type="checkbox" id="pro11" name="programacion1" value="1">
+						<label for="pro11">Programaci&oacute;n 1</label><br/>
+						<input type="checkbox" id="pro22" name="programacion2" value="2" checked="checked">
+						<label for="pro22">Programaci&oacute;n 2</label><br/>
+						<input type="checkbox" id="pro33" name="programacion3" value="3">
+						<label for="pro33">Programaci&oacute;n 3</label><br/>
+						<br/>
+						<br/>
+
+						<select id="colores" name="colores">
+							<option value="-1"></option>
+							<option value="1">Azul</option>
+							<option value="2">Rojo</option>
+							<option value="3" selected="selected">Negro</option>
+							<option value="4">Blanco</option>
+						</select>
+						<input type="hidden" name="oculto" value="10">
+				</fielset>
+			
+				<input type="submit" name="Enviar" value="Guardar" />
+			</form>
+		</div>
+	</body>
+</html>
